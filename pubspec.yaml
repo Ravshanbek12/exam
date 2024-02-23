@@ -1,0 +1,40 @@
+name: exam
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  get_it: ^7.6.7
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.5
+  svg_flutter: ^0.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+
+
+#  fonts:
+#    - family: Barlow
+#      fonts:
+#        - assets: assets/fonts/Barlow-Regular.ttf
+
